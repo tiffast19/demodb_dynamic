@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>demotracker db</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="copyright" content="&COPY; 2022-2029" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/demotracker.css" />
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <h1>Dynamic Web Programming</h1>
+        <h2>582-21B-VA</h2>
+        <p>Tiffany St-Surin</p>
+      </section>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h2 class="testfirst">Employee Daily Work Hours Tracker</h2>
+      </section>
+      <section id="insert">
+        <form id="insert-form">
+          <fieldset>
+            <h2>Daily Hours Tracker</h2>
+            <p>
+              <label for="first_name">First Name:</label>
+              <input type="text" name="first_name" />
+            </p>
+            <p>
+              <label for="last_name">Last Name:</label>
+              <input type="text" name="last_name" />
+            </p>
+            <p>
+              <label for="department">Department:</label>
+              <input type="text" name="department" />
+            </p>
+            <p>
+              <label for="today_date">Today's Date:</label>
+              <input type="date" name="today_date" />
+            </p>
+
+            <p>
+              <label for="total_hours_worked">Total Hours Worked</label>
+              <input type="text" name="total_hours_worked" />
+            </p>
+            <p>
+              <label for="rate_per_hour">Rate per hour:</label>
+              <input type="text" name="rate_per_hour" />
+            </p>
+            <section>
+              <p>
+                <a href="#" type="submit" id="submit">Done</a>
+              </p>
+
+              <p>
+                <label for="search_name">Search by Name:</label>
+                <input type="text" name="search_name" id="search_name" />
+              </p>
+              <p>
+                <label for="search_date">Search by Date:</label>
+                <input type="date" name="search_date" id="search_date" />
+              </p>
+              <p>
+                <a href="#" id="submit">Done</a>
+              </p>
+            </section>
+          </fieldset>
+        </form>
+      </section>
+
+      <section id="display"></section>
+    </main>
+    <footer><a href="">Github</a></footer>
+    <script src="js/demotracker_v2.js"></script>
+  </body>
+</html>
